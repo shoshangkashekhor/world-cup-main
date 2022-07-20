@@ -84,7 +84,7 @@ body {
     width: 100%;
 }
 
-/* mid section  */
+/* main start */
 .middle-part {
     width: 1140px;
     height: 674px;
@@ -105,26 +105,45 @@ body {
 .navbar-menu {
     width: 165px;
     height: 165px;
-    margin: 27px;
+    margin: 30px;
 }
 
-.navbar-menu p {
+.navbar-menu button {
     width: 165px;
-    height: 40px;
+    height: 45px;
     text-align: center;
-    padding-top: 11px;
+    padding-top: 10px;
     background-color: whitesmoke;
     border-radius: 5px;
 }
 
-.group {
+.upcoming-match {
     margin-bottom: 15px;
+    padding-bottom: 10px;
 }
 
+.upcoming-match a {
+    text-decoration: none;
+    font-weight: 30px;
+    font-size: larger;
+    color: black;
+    padding-bottom: 20px;
+}
 
 #blog {
     background-color: red;
+    padding-bottom: 10px;
 }
+
+#blog a {
+    text-decoration: none;
+    font-weight: 30px;
+    font-size: larger;
+    color: whitesmoke;
+}
+
+
+
 
 .transfer-blog {
     width: 891px;

@@ -86,67 +86,77 @@ body {
     width: 100%;
 }
 
-/* Middle Part style */
-.Mid-container {
-    width: 1320px;
-    height: 640x;
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: 313px 1fr;
-    gap: 20px;
-    color: white;
+/* main start */
+.middle-part {
+    width: 1140px;
+    height: 674px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 130px;
+    display: flex;
 }
 
-#active {
-    background-color: #DD0000;
+.navbar-box {
+    width: 225px;
+    height: 225px;
+    border-radius: 10px;
+    background-color: black;
 }
 
-#active a {
-    color: #ffffff;
+.navbar-menu {
+    width: 165px;
+    height: 165px;
+    margin: 30px;
 }
 
-.left-buttons {
-    width: 313px;
-    height: 313px;
-    background-color: #0c0202;
-    color: white;
-    border-radius: 12px;
-    position: sticky;
+.navbar-menu button {
+    width: 165px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
 
-#fixed {
-    position: fixed;
-    left: 10px;
-    top: 320px;
+.upcoming-match {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    background-color: chocolate;
 }
 
-.btn-1 {
-    width: 224px;
-    height: 64px;
-    margin: 25px 44px;
-    border-radius: 8px;
-    background-color: #ffffff;
+#specific-color {
+    background-color: red;
 }
 
-.btn-1 a {
+.upcoming-match a {
     text-decoration: none;
+    font-weight: 30px;
+    font-size: larger;
     color: black;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 9px 12px;
-
+    padding-bottom: 20px;
 }
 
-.btn-1:last-child,
-.btn-1:nth-child(2) {
-    margin-top: 0;
+#blog {
+    background-color: whitesmoke;
+    padding-bottom: 10px;
 }
+
+#blog a {
+    text-decoration: none;
+    font-weight: 30px;
+    font-size: larger;
+    color: black;
+}
+
 
 /* Upcoming World Cup Matches */
 .blog-sector {
+    margin-left: 24px;
     display: grid;
     grid-template-columns: repeat(3, 1.8fr);
     grid-row-gap: 20px;
+    grid-column-gap: 24px;
 }
 
 .blog-2 {
